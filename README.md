@@ -56,9 +56,7 @@ Here, for this project we have used a file named Data.csv. In this file we have 
 
 ## Sample Data Taken:
 
-**hr_data.csv**
-
-**employee_satisfaction_evaluation.xlsx**
+**data.csv**
 
 ## Operations:
 
