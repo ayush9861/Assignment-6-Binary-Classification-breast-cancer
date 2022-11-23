@@ -1,8 +1,41 @@
-# Assignment-6-Data-Science-Employee-Churn
+# Assignment-6-Binary-Classification-Breast-Cancer
 
-### What is Employee Churn Project?
+### What is Binary Classification of Breast Cancer?
 
-It is the overall turnover in an organisation staff as existing employees leaves and new employess are hired. It is basically calculated as the percentage of employee leaving over a specific period of time.So, higher churn rate is not good for an organisation because it leads to high financial cost as the new trainees are not productive and the company will have to spend money in their training etc.
+Breast Cancer is a cancer that devlops from breast cancer. Breast Cancer may include lumps in breast, a change in breast shape, dimpling of the skin, fluid coming from th nipples etc. Breast cancer may be devloped due to lack of physcical excercise, alcoholism, hormon replacement therapy during menopause, having child late in life or not at all.
+
+### Problem Statement:
+
+The Problem in hand is a binay classification in which we are going to compile the data from the data.csv file and try to analyze the result. This binary classification cointains a lot of characteristics of tissue culture like radius,smoothness, texture, smoothness etc. While the output is binary.
+
+In, this project our aim is to try to understand the features, execute some strategies for feature reduction, apply a binary classification algorithm until performance saturates.
+
+### About Dataset:
+
+Here, for this project we have used a file named Data.csv. In this file we have 569 rows and 33 columns. Out of the 33 colums the first two colums includes Id and diagnosis. Some of the top ten features of are:
+
+* Radius
+* Concavity
+* Texture
+* Smoothness
+* Symmetry
+* compactness
+* concave points
+* Area
+* Fractal dimension
+* Perimeter
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Applications Used:
 
