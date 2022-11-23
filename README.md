@@ -50,9 +50,7 @@ Here, for this project we have used a file named Data.csv. In this file we have 
 
 **Matplotlib: 3.6.2**
 
-**Seabon: 0.12**
-
-**Plotly: 5.11.0**
+**Seaborn: 0.12**
 
 **Pandas: 1.5.1**
 
