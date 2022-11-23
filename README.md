@@ -60,34 +60,52 @@ Here, for this project we have used a file named Data.csv. In this file we have 
 
 ## Operations:
 
-#### Numerical Analysis
+In this step we have imported all the libraries which we are going to use for conducting different operations with the data.csv file. After, importing all the libraries we have used the pandas **read_csv()** function to read the data.csv file and used the pandas **head()** and **describe()** function to return the first n rows based on position and describe to return the description of the data in the DataFrame.
 
-In this Operation we have inserted the department and salary data. Done merging and joining employee id with employee index. and tried to find the sum and mean of the data.
 
-#### Data Visualization
-In this operation we have tried to visualize the data with different graphs and try to do some data mining.
+![](https://i.imgur.com/zdNmC9B.png)
 
-#### Data Preprocessing
 
-In this operation we have tried to compare the salary with the department and years of experience.
+Here, in this step we have we are using **isnull()** method pf pandas library to return a dataframe object where all the values are replaced with a Boolen value True for Null and otherwise False. After, conducting this operation we have use the **sum()** function to add all values in each column and return the sum of each column.
 
-#### Model Building 
-In, this step we have tried to do the model or train some data which we are going to use in the futre decesion tree operation.
 
-#### Decision Tree
+![](https://i.imgur.com/ZmBPUn2.png)
 
-In, this step we have tried to predict the chances for employees to be in the organisation or leave the organisation.
 
-## Screenshots:
-![](https://i.imgur.com/8BGOC8c.png)
-![](https://i.imgur.com/1mnuyf6.png)
-![](https://i.imgur.com/zHSUO0p.png)
-![](https://i.imgur.com/iB6Yv76.png)
-![](https://i.imgur.com/3xMcI53.png)
-![](https://i.imgur.com/oqKQ3yY.png)
-![](https://i.imgur.com/mWkBsFX.png)
-![](https://i.imgur.com/XqzMS8e.png)
-![](https://i.imgur.com/lCNaFCt.png)
-![](https://i.imgur.com/MGtA7zh.png)
+Here, in this step I have used **Seaborn** countplot function to plot he graph of labels and count.
+
+
+![](https://i.imgur.com/ODTYCMb.png)
+
+
+Here, in this step we have used the pandas drop function to remove the specified row and column and we have also used the **Sklearn's** MinMaxScaler to scale and transform the data present in the variable X.
+
+
+![](https://i.imgur.com/K6mrYO7.png)
+
+
+Here, in this step we have **Keras** Sequential library to implement our algorithm.
+
+
+![](https://i.imgur.com/NGAjXek.png)
+
+
+Here, in this step we are using **Metplotlib** plot function to build a graph for better data visualization.
+
+
+![](https://i.imgur.com/BvT9TS5.png)
+
+
+Here, is the outcome of the graphs.
+
+
+![](https://i.imgur.com/IbreTBW.png)
+
+
+Using, the **Sklearn** Confusion_Matrix function we, have genertaed a heat map showing the outcome of our operations.
+
+
+![](https://i.imgur.com/3zUwWAc.png)
+
 
 
